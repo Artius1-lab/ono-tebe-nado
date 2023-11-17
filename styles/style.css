@@ -180,7 +180,7 @@ header {
 .h1_words_last {
   margin-left: 27px;
   flex-direction: row;
-  text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
 .button_cover {
