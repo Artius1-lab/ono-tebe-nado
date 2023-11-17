@@ -39,12 +39,20 @@ header {
 }
 
 .image_header {
-  background-image: url("../images/logo-black.svg");
-  width: 129.11px;
+  background-image: url(../images/logo-black.svg);
+  width: 136.11px;
   height: 104.65px;
+  margin-left: 214px;
+  margin-top: 93px;
+}
+.image_header_{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/logo-black.svg");
   background-repeat: no-repeat;
-  margin-left: 217px;
-  margin-top: 96px;
+  background-size: cover; 
+  background-position: center;
 }
 .contacts {
   display: flex;
@@ -58,28 +66,29 @@ header {
 
 .phone_number_header {
   text-decoration: underline;
-  margin-top: 2px;
-  margin-left: 10px;
+  margin-top: 1px;
+  margin-left: 7px;
 }
 .mail_header {
   text-decoration: underline;
-  margin-top: 3px;
-  margin-left: 10px;
+  margin-top: 4px;
+  margin-left: 7px;
 }
 .address_header {
   margin-top: 3px;
-  margin-left: 10px;
+  margin-left: 7px;
 }
 .address_header_ {
   margin-top: 3px;
   margin-left: 9px;
 }
 .image_cover {
-  background-image: url("../images/cover.jpg");
+  background-image:url("../images/cover.jpg");
   width: 1440px;
   height: 757px;
   position: relative;
   display: inline-block;
+  background-size: cover;
 }
 
 .words {
@@ -99,9 +108,14 @@ header {
 
 .letter_one {
   letter-spacing: 29px;
+  text-transform:uppercase;
 }
 .letter_two {
   letter-spacing: 60px;
+  text-transform:uppercase;
+}
+.letter_three{
+  text-transform:uppercase;
 }
 .two_words {
   top: 0;
@@ -111,12 +125,19 @@ header {
 }
 .letter_four {
   letter-spacing: 31px;
+  text-transform: uppercase;
 }
 .letter_five {
   letter-spacing: 30px;
+  text-transform: uppercase;
 }
 .letter_six {
   letter-spacing: 59px;
+  text-transform: uppercase;
+}
+
+.letter_seven{
+  text-transform: uppercase;
 }
 
 .three_words {
@@ -126,16 +147,22 @@ header {
 }
 .letter_eight {
   letter-spacing: 61px;
+  text-transform: uppercase;
 }
 .letter_nine {
   letter-spacing: 30px;
+  text-transform: uppercase;
 }
 .letter_ten {
   letter-spacing: 30px;
+  text-transform: uppercase;
+}
+.letter_last{
+  text-transform: uppercase;
 }
 .h1_cover {
   display: flex;
-}
+  }
 .h1_words {
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
@@ -144,12 +171,16 @@ header {
   margin-top: 668px;
   margin-left: 422px;
   word-spacing: 17px;
-  width: 633px;
+ 
   flex-direction: row;
 }
+.h1_words_{
+  text-transform: uppercase;
+}
 .h1_words_last {
-  margin-left: 5px;
+  margin-left: 27px;
   flex-direction: row;
+  text-decoration: uppercase;
 }
 
 .button_cover {
@@ -166,15 +197,18 @@ header {
   flex-direction: row;
   margin-top: 655px;
   margin-left: 1133px;
+  text-transform: uppercase;
 }
 .lots {
   margin-top: 180px;
+  
 }
 .lots_title {
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 700;
   margin-left: 90px;
+  text-transform: uppercase;
 }
 
 .lots_card {
@@ -191,18 +225,21 @@ header {
   width: 430px;
   height: 450px;
   margin-left: 50px;
+  background-size: cover;
 }
 .lots_card_two {
   background-image: url("../images/card-lot-02.jpg");
   background-repeat: no-repeat;
   width: 430px;
   height: 450px;
+  background-size: cover;
 }
 .lots_card_three {
   background-image: url("../images/card-lot-03.jpg");
   background-repeat: no-repeat;
   width: 430px;
   height: 450px;
+  background-size: cover;
 }
 
 .title_card_one_text {
@@ -215,6 +252,7 @@ header {
   margin-left: 40px;
   height: 52px;
   width: 350px;
+  text-transform: uppercase;
 }
 .text_card_one {
   font-family: 'Raleway', sans-serif;
@@ -223,6 +261,8 @@ header {
   color: white;
   margin-top: 202px;
   margin-left: 40px;
+  width: 353px;
+  
 }
 .title_card_two_text {
   text-decoration: underline;
@@ -232,6 +272,8 @@ header {
   color: white;
   margin-top: 50px;
   margin-left: 40px;
+  text-transform: uppercase;
+ 
 }
 .text_card_two {
   font-family: 'Raleway', sans-serif;
@@ -240,7 +282,9 @@ header {
   color: white;
   margin-top: 32px;
   margin-left: 40px;
+  width: 349px;
 }
+
 .title_card_three_text {
   text-decoration: underline;
   font-family: 'Raleway', sans-serif;
@@ -249,6 +293,8 @@ header {
   color: white;
   margin-top: 50px;
   margin-left: 40px;
+  text-transform: uppercase;
+  width: 322px;
 }
 .text_card_three {
   font-family: 'Raleway', sans-serif;
@@ -257,6 +303,7 @@ header {
   color: white;
   margin-top: 81px;
   margin-left: 40px;
+  width: 353px;
 }
 .lots_more {
   font-family: 'Raleway', sans-serif;
@@ -270,8 +317,10 @@ header {
 
 .about {
   height: 487px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 387px auto;
 }
+
 .circle_about {
   background-image: url("../images/circle_about.svg");
   background-repeat: no-repeat;
@@ -280,6 +329,7 @@ header {
   margin-top: 235px;
   margin-left: 145px;
   flex-direction: row;
+  
 }
 .image_about {
   background-image: url("../images/logo-white.svg");
@@ -290,18 +340,21 @@ header {
   height: 114px;
   position: absolute;
   flex-direction: row;
+ 
 }
 .text_about {
   height: 388px;
   flex-direction: row;
 }
 .about_h3 {
-  margin-left: 119px;
+  margin-left: 118px;
   margin-top: 336px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 40px;
   color: black;
+  width: 295px;
+ 
 }
 .about_text_one {
   margin-top: 99px;
@@ -312,10 +365,11 @@ header {
 }
 .about_text_two {
   margin-top: 24px;
-  margin-left: 120px;
+  margin-left: 118px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 20px;
+  width: 850px;
 }
 
 .footer {
