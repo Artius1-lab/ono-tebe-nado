@@ -45,6 +45,7 @@ header {
   margin-left: 214px;
   margin-top: 93px;
 }
+
 .image_header_{
   display: block;
   width: 100%;
@@ -110,13 +111,16 @@ header {
   letter-spacing: 29px;
   text-transform:uppercase;
 }
+
 .letter_two {
   letter-spacing: 60px;
   text-transform:uppercase;
 }
+
 .letter_three{
   text-transform:uppercase;
 }
+
 .two_words {
   top: 0;
   left: 35%;
@@ -131,6 +135,7 @@ header {
   letter-spacing: 30px;
   text-transform: uppercase;
 }
+
 .letter_six {
   letter-spacing: 59px;
   text-transform: uppercase;
@@ -153,6 +158,7 @@ header {
   letter-spacing: 30px;
   text-transform: uppercase;
 }
+
 .letter_ten {
   letter-spacing: 30px;
   text-transform: uppercase;
@@ -162,7 +168,8 @@ header {
 }
 .h1_cover {
   display: flex;
-  }
+}
+
 .h1_words {
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
@@ -171,9 +178,9 @@ header {
   margin-top: 668px;
   margin-left: 422px;
   word-spacing: 17px;
- 
   flex-direction: row;
 }
+
 .h1_words_{
   text-transform: uppercase;
 }
