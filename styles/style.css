@@ -60,7 +60,7 @@ header {
   width: 136.11px;
   height: 104.65px;
   margin-left: 214px;
-  margin-top: 93px;
+  margin-top: 92px;
 }
 
 .image_header_ {
@@ -85,12 +85,13 @@ header {
   text-decoration: none;
   margin-top: 2px;
   margin-left: 7px;
+  width:133px;
 }
 
 .phone_number_header_ {
   display: block;
   border-bottom: 1px solid black; 
-
+  
 }
 
 .mail_header {
@@ -509,6 +510,7 @@ margin-left: 51px;
 }
 
  .phone_number_footer_ {
+  display:block;
   border-bottom: 1px solid black; 
 
  }
@@ -553,7 +555,7 @@ margin-left: 51px;
 .footer_center_one {
   margin-left: 41px;
   margin-top: 1px;
-
+  width:149px;
 }
 
 .footer_center_two {
