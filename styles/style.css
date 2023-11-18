@@ -38,6 +38,7 @@ header {
 .p_two_ {
   display: block; 
   border-bottom: 1px solid black; 
+
 }
 
 .circle_two {
@@ -52,6 +53,7 @@ header {
 .p_three_ {
   display: block; 
   border-bottom: 1px solid black; 
+
 }
 
 .image_header {
@@ -65,6 +67,7 @@ header {
   background-repeat: no-repeat;
   max-width: 100%; 
   max-height: 100%; 
+
 }
 
 .contacts {
@@ -82,11 +85,12 @@ header {
   text-decoration: none;
   margin-top: 2px;
   margin-left: 7px;
-  width: 133px;
 }
 
 .phone_number_header_ {
+  display: block;
   border-bottom: 1px solid black; 
+
 }
 
 .mail_header {
@@ -111,11 +115,13 @@ text-decoration: none;
 margin-top: 3px;
 margin-left: 7px;
 text-decoration: none;
+
 }
 
 .cover {
 width: 1440px;
 height: 763.94px; 
+
 }
 
 .image_cover {
@@ -162,10 +168,12 @@ margin-left: 51px;
   margin-top: 291px;
   margin-left: 1px;
 }
+
 .letter_four {
   letter-spacing: 31px;
   text-transform: uppercase;
 }
+
 .letter_five {
   letter-spacing: 30px;
   text-transform: uppercase;
@@ -185,6 +193,7 @@ margin-left: 51px;
   margin-top: 411px;
   margin-left: 973px;
 }
+
 .letter_eight {
   letter-spacing: 61px;
   text-transform: uppercase;
@@ -368,7 +377,9 @@ margin-left: 51px;
   margin-left: 90px;
   position: absolute;
   text-decoration: none;
+
 }
+
 .lots_more_ {
   border-bottom: 1px solid black; 
 }
@@ -436,11 +447,6 @@ margin-left: 51px;
   margin-left: 118px;
 }
 
-.about_p_four {
-  margin-top: -2px;
-  margin-left: 119px;
-}
-
 .about_p_five {
   margin-top:0px;
   margin-left:0px;
@@ -464,17 +470,21 @@ margin-left: 51px;
   margin-top:-1px;
   
 }
+
 .about_p_three_ {
   margin-top:-2px;
 }
+
 .about_p_four {
  width:857px;
- margin-left:118px;
+ margin-left:119px;
  margin-top:-2px;
 }
+
 .about_p_five_ {
   margin-top:-2px;
 }
+
 .footer {
   margin-top: 328px;
   display: grid;
@@ -500,6 +510,7 @@ margin-left: 51px;
 
  .phone_number_footer_ {
   border-bottom: 1px solid black; 
+
  }
  
 .mail_footer {
@@ -510,16 +521,20 @@ margin-left: 51px;
 }
 
 .mail_footer_ {
+ display: block;
  border-bottom: 1px solid black; 
+
 }
 
 .address_footer {
   width: 240px;
   margin-top: 2px;
   margin-left: 50px;
+  text-decoration: none;
 }
 
 .address_footer_ {
+  text-decoration: none;
   width: 240px;
   margin-top: 3px;
   margin-left: 50px;
@@ -538,6 +553,7 @@ margin-left: 51px;
 .footer_center_one {
   margin-left: 41px;
   margin-top: 1px;
+
 }
 
 .footer_center_two {
@@ -546,6 +562,7 @@ margin-left: 51px;
 }
 
 .footer_center_two_ {
+  display: block;
   border-bottom: 1px solid black; 
 }
 
@@ -557,6 +574,7 @@ margin-left: 51px;
 }
 
 .footer_center_three_ {
+  display: block;
   border-bottom: 1px solid black;
  }
 
