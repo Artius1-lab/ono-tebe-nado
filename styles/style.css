@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  height: 293px;
+  height: 292px;
   display: flex;
 }
 
@@ -13,13 +13,17 @@ header {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 136px;
 }
+
 .header_left {
   height: 23px;
 }
+
 .p_one {
   margin-left: 51px;
   margin-top: 135px;
+  text-decoration: none;
 }
 
 .circle_one {
@@ -27,84 +31,120 @@ header {
 }
 
 .p_two {
-  text-decoration: underline;
-  margin-left: 8px;
+ margin-left: 8px;
+ text-decoration: none;
 }
+
+.p_two_ {
+  content: ""; 
+  display: block; 
+  border-bottom: 1px solid #000; 
+}
+
 .circle_two {
   margin-left: 10px;
 }
+
 .p_three {
-  text-decoration: underline;
+  text-decoration: none;
   margin-left: 8px;
 }
 
+.p_three_ {
+  content: ""; 
+  display: block; 
+  border-bottom: 1px solid #000; 
+}
+
 .image_header {
-  background-image: url("../logo-black.svg");
   width: 136.11px;
   height: 104.65px;
   margin-left: 214px;
   margin-top: 93px;
 }
 
-.image_header_{
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/logo-black.svg");
+.image_header_ {
+  background-position: cover;
   background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center;
+  max-width: 100%; 
+  max-height: 100%; 
 }
+
 .contacts {
   display: flex;
   flex-direction: column;
   margin-left: 355px;
   margin-top: 97px;
+  font-style: normal;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
 
 .phone_number_header {
-  text-decoration: underline;
-  margin-top: 1px;
+  text-decoration: none;
+  margin-top: 2px;
   margin-left: 7px;
+  width: 133px;
 }
+
+.phone_number_header_ {
+  content: ""; 
+  border-bottom: 1px solid #000; 
+}
+
 .mail_header {
-  text-decoration: underline;
-  margin-top: 4px;
+  text-decoration: none;
+  margin-top: 2px;
   margin-left: 7px;
+  width: 130px;
 }
+
+.mail_header_ {
+  content: ""; 
+  display: block;
+  border-bottom: 1px solid #000;
+}
+
 .address_header {
-  margin-top: 3px;
-  margin-left: 7px;
+margin-top: 2px;
+margin-left: 7px;
+text-decoration: none;
 }
+
 .address_header_ {
-  margin-top: 3px;
-  margin-left: 9px;
+margin-top: 3px;
+margin-left: 7px;
+text-decoration: none;
 }
+
+.cover {
+width: 1440px;
+height: 763.94px; 
+}
+
 .image_cover {
-  background-image:url("../images/cover.jpg");
-  width: 1440px;
-  height: 757px;
+  background-image: url("../images/cover.jpg");
   position: relative;
+  width: 1440px;
+  height: 757.94px; 
   display: inline-block;
   background-size: cover;
 }
 
 .words {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 100px;
-  font-weight: bold;
-  position: absolute;
+color: white;
+font-family: 'Raleway', sans-serif;
+font-size: 100px;
+font-weight: bold;
+position: absolute;
 }
 
 .one_words {
-  top: 0;
-  left: 0;
-  margin-top: 164px;
-  margin-left: 51px;
+top: 0;
+left: 0;
+margin-top: 164px;
+margin-left: 51px;
 }
 
 .letter_one {
@@ -117,7 +157,7 @@ header {
   text-transform:uppercase;
 }
 
-.letter_three{
+.letter_three {
   text-transform:uppercase;
 }
 
@@ -141,10 +181,12 @@ header {
   text-transform: uppercase;
 }
 
-.letter_seven{
+.letter_seven {
   text-transform: uppercase;
 }
-
+.letter_nine{
+text-transform: uppercase;
+}
 .three_words {
   top: 0;
   margin-top: 411px;
@@ -157,15 +199,18 @@ header {
 .letter_nine {
   letter-spacing: 30px;
   text-transform: uppercase;
+  width: 100px;
 }
 
 .letter_ten {
   letter-spacing: 30px;
   text-transform: uppercase;
 }
-.letter_last{
+
+.letter_last {
   text-transform: uppercase;
 }
+
 .h1_cover {
   display: flex;
 }
@@ -181,9 +226,10 @@ header {
   flex-direction: row;
 }
 
-.h1_words_{
+.h1_words_ {
   text-transform: uppercase;
 }
+
 .h1_words_last {
   margin-left: 27px;
   flex-direction: row;
@@ -200,14 +246,14 @@ header {
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 400;
-  margin-top: 0px;
   flex-direction: row;
   margin-top: 655px;
   margin-left: 1133px;
   text-transform: uppercase;
 }
+
 .lots {
-  margin-top: 180px;
+  margin-top: 174px;
   
 }
 .lots_title {
@@ -223,9 +269,11 @@ header {
   flex-direction: row;
   margin-top: 27px;
 }
+
 .lots_flex {
   margin-left: 25px;
 }
+
 .lots_card_one {
   background-image: url("../images/card-lot-01.jpg");
   background-repeat: no-repeat;
@@ -234,6 +282,7 @@ header {
   margin-left: 50px;
   background-size: cover;
 }
+
 .lots_card_two {
   background-image: url("../images/card-lot-02.jpg");
   background-repeat: no-repeat;
@@ -241,6 +290,7 @@ header {
   height: 450px;
   background-size: cover;
 }
+
 .lots_card_three {
   background-image: url("../images/card-lot-03.jpg");
   background-repeat: no-repeat;
@@ -261,6 +311,7 @@ header {
   width: 350px;
   text-transform: uppercase;
 }
+
 .text_card_one {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -269,8 +320,8 @@ header {
   margin-top: 202px;
   margin-left: 40px;
   width: 353px;
-  
 }
+
 .title_card_two_text {
   text-decoration: underline;
   font-family: 'Raleway', sans-serif;
@@ -280,8 +331,8 @@ header {
   margin-top: 50px;
   margin-left: 40px;
   text-transform: uppercase;
- 
-}
+ }
+
 .text_card_two {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -303,6 +354,7 @@ header {
   text-transform: uppercase;
   width: 322px;
 }
+
 .text_card_three {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -312,6 +364,7 @@ header {
   margin-left: 40px;
   width: 353px;
 }
+
 .lots_more {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -320,6 +373,11 @@ header {
   margin-top: 30px;
   margin-left: 90px;
   position: absolute;
+  text-decoration: none;
+}
+.lots_more_ {
+  content: ""; 
+  border-bottom: 1px solid #000; 
 }
 
 .about {
@@ -336,8 +394,8 @@ header {
   margin-top: 235px;
   margin-left: 145px;
   flex-direction: row;
-  
 }
+
 .image_about {
   background-image: url("../images/logo-white.svg");
   background-repeat: no-repeat;
@@ -347,12 +405,13 @@ header {
   height: 114px;
   position: absolute;
   flex-direction: row;
- 
 }
+
 .text_about {
   height: 388px;
   flex-direction: row;
 }
+
 .about_h3 {
   margin-left: 118px;
   margin-top: 336px;
@@ -361,15 +420,16 @@ header {
   font-size: 40px;
   color: black;
   width: 295px;
- 
 }
+
 .about_text_one {
-  margin-top: 99px;
+  margin-top: 101px;
   margin-left: 120px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
+
 .about_text_two {
   margin-top: 24px;
   margin-left: 118px;
@@ -384,39 +444,53 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.footer_address {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  height: 240px;
-}
+
 .footer_address_ {
   display: flex;
   flex-direction: column;
+  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .phone_number_footer {
-  text-decoration: underline;
-  width: 240px;
+  text-decoration: none;
+  width: 133px;
   margin-top: 90px;
-  margin-left: 49px;
+  margin-left: 50px;
+ 
 }
+
+ .phone_number_footer_ {
+  content: ""; 
+  border-bottom: 1px solid #000; 
+ }
+ 
 .mail_footer {
-  text-decoration: underline;
-  width: 240px;
-  margin-top: 3px;
-  margin-left: 48px;
+  text-decoration: none;
+  width: 132px;
+  margin-top: 2px;
+  margin-left: 50px;
 }
+
+.mail_footer {
+  content: ""; 
+  border-bottom: 1px solid #000; 
+}
+
 .address_footer {
   width: 240px;
   margin-top: 3px;
-  margin-left: 49px;
+  margin-left: 50px;
 }
+
 .address_footer_ {
   width: 240px;
   margin-top: 3px;
   margin-left: 49px;
 }
+
 .footer_center_text {
   display: flex;
   flex-direction: column;
@@ -426,16 +500,34 @@ header {
   font-weight: 400;
   font-size: 18px;
 }
+
 .footer_center_one {
   margin-left: 41px;
+  margin-top: 1px;
 }
+
 .footer_center_two {
-  text-decoration: underline;
+  text-decoration: none;
+  width: 149px;
 }
+
+.footer_center_two_ {
+  content: ""; 
+  border-bottom: 1px solid #000; 
+}
+
 .footer_center_three {
   margin-left: 20px;
-  text-decoration: underline;
+  text-decoration: none;
+  width: 108px;
+  margin-top:-1px;
 }
+
+.footer_center_three_ {
+  content: ""; 
+  border-bottom: 1px solid #000;
+ }
+
 .footer_channel {
   display: flex;
   flex-direction: row;
@@ -443,6 +535,7 @@ header {
   margin-top: 0px;
   margin-left: 0px;
 }
+
 .youtube {
   background-image: url("../images/yt.svg");
   height: 48px;
@@ -451,6 +544,7 @@ header {
   margin-top: 88px;
   margin-left: 190px;
 }
+
 .vk {
   background-image: url("../images/vk.svg");
   height: 48px;
@@ -459,6 +553,7 @@ header {
   margin-left: 48px;
   margin-top: 87px;
 }
+
 .pinterest {
   background-image: url("../images/pinterest.svg");
   height: 48px;
