@@ -36,7 +36,8 @@ header {
 }
 
 .p_two_ {
-  border-bottom:1px solid black; 
+  border-bottom:1px solid;
+  border-bottom-color: black; 
   display: inline-block;
 }
 
@@ -50,7 +51,8 @@ header {
 }
 
 .p_three_ {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid;
+  border-bottom-color:black;
   display: inline-block; 
 }
 
@@ -89,7 +91,8 @@ header {
 }
 
 .phone_number_header_ {
-  border-bottom:1px solid black; 
+  border-bottom:1px solid;
+  border-bottom-color:black; 
   display: inline-block;
 }
 
@@ -102,7 +105,8 @@ header {
 }
 
 .mail_header_ {
-  border-bottom:1px solid black; 
+  border-bottom:1px solid;
+  border-bottom-color:black; 
   display: inline-block;
 }
 
@@ -382,7 +386,8 @@ margin-left: 51px;
 }
 
 .lots_more_ {
-  border-bottom:1px solid black; 
+  border-bottom:1px solid;
+  border-bottom-color: black; 
   display: inline-block;
 }
 
@@ -511,7 +516,8 @@ margin-left: 51px;
 }
 
  .phone_number_footer_ {
-  border-bottom:1px solid black; 
+  border-bottom:1px solid;
+  border-bottom-color: black; 
   display: inline-block;
 
  }
@@ -525,7 +531,8 @@ margin-left: 51px;
 }
 
 .mail_footer_ {
-  border-bottom:1px solid black; 
+  border-bottom:1px solid;
+  border-bottom-color: black; 
   display: inline-block;
 }
 
@@ -566,7 +573,8 @@ margin-left: 51px;
 }
 
 .footer_center_two_ {
-  border-bottom:1px solid black; 
+  border-bottom:1px solid;
+  border-bottom-color: black; 
   display: inline-block;
 }
 
@@ -579,7 +587,8 @@ margin-left: 51px;
 }
 
 .footer_center_three_ {
-  border-bottom:1px solid black; 
+  border-bottom:1px solid;
+  border-bottom-color: black; 
   display: inline-block;
  }
 
