@@ -79,6 +79,8 @@ header {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 400;
+  width:280px;
+  height: 97px;
 }
 
 .phone_number_header {
@@ -503,7 +505,7 @@ margin-left: 51px;
 
 .phone_number_footer {
   text-decoration: none;
-  width: 133px;
+  width: 134px;
   margin-top: 90px;
   margin-left: 50px;
  
@@ -561,7 +563,7 @@ margin-left: 51px;
 .footer_center_two {
   text-decoration: none;
   display: inline-block;
-  width: 149px;
+  width: 151px;
 }
 
 .footer_center_two_ {
@@ -571,7 +573,7 @@ margin-left: 51px;
 .footer_center_three {
   margin-left: 20px;
   text-decoration: none;
-  width: 108px;
+  width: 110px;
   margin-top:-1px;
   display: inline-block;
 }
