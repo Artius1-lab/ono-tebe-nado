@@ -86,10 +86,10 @@ header {
   margin-top: 2px;
   margin-left: 7px;
   width:160px;
+  display: inline-block;
 }
 
 .phone_number_header_ {
-  display: inline-block;
   border-bottom: 1px solid black; 
   width:133px;
 }
@@ -99,10 +99,10 @@ header {
   margin-top: 2px;
   margin-left: 7px;
   width: 130px;
+  display: inline-block;
 }
 
 .mail_header_ {
-  display: inline-block;
   border-bottom: 1px solid black;
 }
 
@@ -520,10 +520,10 @@ margin-left: 51px;
   width: 132px;
   margin-top: 2px;
   margin-left: 50px;
+  display: inline-block;
 }
 
 .mail_footer_ {
- display: inline-block;
  border-bottom: 1px solid black; 
 
 }
@@ -560,11 +560,11 @@ margin-left: 51px;
 
 .footer_center_two {
   text-decoration: none;
+  display: inline-block;
   width: 149px;
 }
 
 .footer_center_two_ {
-  display: inline-block;
   border-bottom: 1px solid black; 
 }
 
@@ -573,10 +573,10 @@ margin-left: 51px;
   text-decoration: none;
   width: 108px;
   margin-top:-1px;
+  display: inline-block;
 }
 
 .footer_center_three_ {
-  display: inline-block;
   border-bottom: 1px solid black;
  }
 
