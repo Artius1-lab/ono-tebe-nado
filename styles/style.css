@@ -31,14 +31,13 @@ header {
 }
 
 .p_two {
- margin-left: 8px;
- text-decoration: none;
+  margin-left: 8px;
+  text-decoration: none;
 }
 
 .p_two_ {
-  display: inline-block; 
-  border-bottom: 1px solid black; 
-
+  border-bottom:1px solid black; 
+  display: inline-block;
 }
 
 .circle_two {
@@ -51,9 +50,8 @@ header {
 }
 
 .p_three_ {
+  border-bottom: 1px solid black;
   display: inline-block; 
-  border-bottom: 1px solid black; 
-
 }
 
 .image_header {
@@ -67,7 +65,6 @@ header {
   background-repeat: no-repeat;
   max-width: 100%; 
   max-height: 100%; 
-
 }
 
 .contacts {
@@ -92,8 +89,8 @@ header {
 }
 
 .phone_number_header_ {
-  border-bottom: 1px solid black; 
-  
+  border-bottom:1px solid black; 
+  display: inline-block;
 }
 
 .mail_header {
@@ -105,7 +102,8 @@ header {
 }
 
 .mail_header_ {
-  border-bottom: 1px solid black;
+  border-bottom:1px solid black; 
+  display: inline-block;
 }
 
 .address_header {
@@ -384,7 +382,8 @@ margin-left: 51px;
 }
 
 .lots_more_ {
-  border-bottom: 1px solid black; 
+  border-bottom:1px solid black; 
+  display: inline-block;
 }
 
 .about {
@@ -512,8 +511,8 @@ margin-left: 51px;
 }
 
  .phone_number_footer_ {
-  display:inline-block;
-  border-bottom: 1px solid black; 
+  border-bottom:1px solid black; 
+  display: inline-block;
 
  }
  
@@ -526,8 +525,8 @@ margin-left: 51px;
 }
 
 .mail_footer_ {
- border-bottom: 1px solid black; 
-
+  border-bottom:1px solid black; 
+  display: inline-block;
 }
 
 .address_footer {
@@ -567,7 +566,8 @@ margin-left: 51px;
 }
 
 .footer_center_two_ {
-  border-bottom: 1px solid black; 
+  border-bottom:1px solid black; 
+  display: inline-block;
 }
 
 .footer_center_three {
@@ -579,7 +579,8 @@ margin-left: 51px;
 }
 
 .footer_center_three_ {
-  border-bottom: 1px solid black;
+  border-bottom:1px solid black; 
+  display: inline-block;
  }
 
 .footer_channel {
