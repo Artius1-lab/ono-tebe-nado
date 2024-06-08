@@ -265,62 +265,62 @@ h1 {
   width: 334px;
   height: 563px;
 }
-.lots_card_one {
+.lots_card_left {
   background-image: url("../images/card-lot-01.jpg");
   margin-left: 24px;
  
 }
 
-.lots_card_one_overlay {
+.lots_card_left_overlay {
   width: 334px;
   height: 563px;
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
 }
 
-.a_lots_card_one {
+.a_lots_card_left {
   text-decoration: none;
 }
-.title_card_one_text{
+.title_card_left_text{
   max-width: 245px;
   text-transform: uppercase;
 }
 
-.lots_card_two {
+.lots_card_center {
   background-image: url("../images/card-lot-02.jpg");
   margin-left: 25px;
 
 }
 
-.lots_card_two_overlay {
+.lots_card_center_overlay {
   width: 334px;
   height: 563px;
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
 }
 
-.a_lots_card_two {
+.a_lots_card_center {
   text-decoration: none;
 }
 
-.lots_card_three {
+.lots_card_right {
   background-image: url("../images/card-lot-03.jpg");
   margin-left: 25px;
 }
 
 
-.lots_card_three_overlay {
+.lots_card_right_overlay {
   width: 334px;
   height: 563px;
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
 }
 
-.a_lots_card_three {
+.a_lots_card_right {
   text-decoration: none;
 }
 
-.title_card_one_text {
+.title_card_left_text {
   text-decoration: underline;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
@@ -331,7 +331,7 @@ h1 {
   width: 334px;
 }
 
-.text_card_one {
+.text_card_left {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -341,7 +341,7 @@ h1 {
   max-width: 252px;
 }
 
-.title_card_two_text {
+.title_card_center_text {
   text-decoration: underline;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
@@ -353,11 +353,11 @@ h1 {
   max-width: 274px;
 }
 
-.text_card_one h4 {
+.text_card_left h3 {
   text-decoration: none;
 }
 
-.text_card_two {
+.text_card_center {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -367,7 +367,7 @@ h1 {
   max-width: 262px;
 }
 
-.title_card_three_text {
+.title_card_right_text {
   text-decoration: underline;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
@@ -379,7 +379,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.text_card_three {
+.text_card_right {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
