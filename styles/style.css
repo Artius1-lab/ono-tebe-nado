@@ -1,5 +1,6 @@
 body {
   width: 1100px;
+  margin: 0 auto;
 }
 
 header {
@@ -129,27 +130,27 @@ header {
 .first_word{
   text-align: center;
 }
-.one_words {
+.ono_tebe_nado_words {
   top: 0;
   left: 0;
   margin-top: 164px;
   margin-left: 51px;
 }
 
-.letter_one {
+.ono_word_letter_o {
   letter-spacing: 6px;
 }
 
-.letter_two {
+.ono_word_letter_n {
   letter-spacing: 35px;
   text-transform: uppercase;
 }
 
-.letter_three {
+.ono_word_letter__o {
   text-transform: uppercase;
 }
 
-.second_word {
+.tebe_word {
   top: 0;
   margin-top: 10px;
   margin-left: 284px;
@@ -159,43 +160,43 @@ header {
 h1 {
   text-transform: uppercase;
 }
-.letter_four {
+.tebe_word_t {
   letter-spacing: 7px;
   margin-right: 0px;
 }
 
-.letter_five {
+.tebe_word_e {
   letter-spacing: 6px;
 }
 
-.letter_six {
+.tebe_word_b {
   letter-spacing: 36px;
 }
 
-.letter_seven {
+.tebe_word__e {
   letter-spacing: 0px;
 }
 
-.third_word {
+.nado_word {
   top: 0;
   margin-left: 583px;
   margin-top: 3px;
   display: block;
 }
 
-.letter_eight {
+.nado_word_n {
   letter-spacing: 36px;
 }
 
-.letter_nine {
+.nado_word_a {
   letter-spacing: 6px;
 }
 
-.letter_ten {
+.nado_word_d {
   letter-spacing: 6px;
 }
 
-.letter_last {
+.nado_word_o {
   letter-spacing: initial; 
 }
 
@@ -231,6 +232,7 @@ h1 {
   margin-top: 127px;
   margin-left: 80px;
   flex-direction: row;
+  text-transform: uppercase;
 }
 
 .lots {
@@ -243,6 +245,7 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   margin-left: 64px;
+  text-transform: uppercase;
 }
 .card {
   background-repeat: no-repeat;
@@ -437,7 +440,7 @@ h1 {
   flex: 2;
 }
 
-.about_h2 {
+.about_aucion {
   margin-left: 72px;
   margin-top: 148px;
   font-family: 'Raleway', sans-serif;
@@ -446,7 +449,7 @@ h1 {
   color: black;
   text-transform: uppercase;
 }
-.about_h2_a{
+.about_aucion_a{
   text-decoration: none;
 }
 .about_text_all {
@@ -455,18 +458,25 @@ h1 {
   margin-top: 8px;
   display: flex;
   flex-direction: column;
+  
 }
 
-.about_text {
+.about_text_all {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
-
+.about_text_{
+  max-width: 686px;
+}
+.about_text__{
+  max-width: 691px;
+}
 .footer {
   margin-top: 94px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 94px;
 }
 
 .footer_address_ {
