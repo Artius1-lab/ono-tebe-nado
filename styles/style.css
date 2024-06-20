@@ -78,7 +78,6 @@ header {
 .phone_number {
   margin-top: 2px;
   margin-left: 27px;
-  text-decoration: none;
   position: relative;
   text-decoration: underline;
   text-underline-position: under;
@@ -87,7 +86,6 @@ header {
 .mail {
   margin-top: 3px;
   margin-left: 26px;
-  text-decoration: none;
   position: relative;
   text-decoration: underline;
   text-underline-position: under;
@@ -107,10 +105,11 @@ header {
   position: relative;
   display: inline-block;
   padding-bottom: 50px;
+  background-position: center;
+  background-size: cover;
 }
 
-.cover_overlay {
-  position: absolute;
+.overlay {
   top: 0;
   left: 0;
   z-index: 1;
@@ -217,7 +216,7 @@ h1 {
 
 .lots {
   margin-top: 180px;
-  padding-bottom: 112px;
+  padding-bottom: 110px;
 }
 
 .lots_title {
@@ -226,6 +225,7 @@ h1 {
   font-weight: 700;
   margin-left: 64px;
   text-transform: uppercase;
+  padding-bottom: 5px;
 }
 .card {
   background-repeat: no-repeat;
@@ -233,144 +233,76 @@ h1 {
   width: 334px;
   height: 563px;
   position: relative;
-  margin-right: 8px;
 }
 
 .lots_card {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
   list-style-type: none;
   height: 100%;
-  padding: 27px;
-  gap: 0px;
+  padding-top: 25px;
+  padding-left: 24px;
+  padding-bottom: 28px;
+  gap: 25px;
 }
 
-.card:nth-child(3) {
-  margin-right: -1px;
+h3 {
+  text-decoration: underline;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
 }
 
 .lots_card_left {
   background-image: url("../images/card-lot-01.jpg");
 }
 
-.a_lots_card_left {
+.a_lots_card {
   text-decoration: none;
+  padding: 51px 40px;
+  display: block;
+  height: 100%;
 }
-
+.text_card{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  
+}
 .lots_card_center {
   background-image: url("../images/card-lot-02.jpg");
 }
 
-.a_lots_card_center {
-  text-decoration: none;
-}
-.lots_card_left_article {
+.lots_card_article {
   padding-right: 7px;
   position: relative;
   z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 254px;
 }
-.lots_card_center_article {
-  padding-right: 14px;
-  position: relative;
-  z-index: 2;
-}
-.lots_card_right_article {
-  position: relative;
-  z-index: 2;
-}
+
+
 .lots_card_right {
   background-image: url("../images/card-lot-03.jpg");
 }
 
-.a_lots_card_right {
-  text-decoration: none;
-}
-
-.title_card_left_text {
-  text-decoration: underline;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  color: white;
-  margin-top: 50px;
-  margin-left: 40px;
-  max-width: 280px;
-  text-transform: uppercase;
-}
-
-.text_card_left {
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: white;
-  margin-top: 243px;
-  margin-left: 40px;
-  max-width: 252px;
-}
-
-.title_card_center_text {
-  text-decoration: underline;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  color: white;
-  margin-top: 50px;
-  margin-left: 40px;
-  text-transform: uppercase;
-  max-width: 274px;
-}
-
-.text_card_left h3 {
-  text-decoration: none;
-}
-
-.text_card_center {
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: white;
-  margin-top: 0px;
-  margin-left: 40px;
-  max-width: 262px;
-}
-
-.title_card_right_text {
-  text-decoration: underline;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  color: white;
-  margin-top: 50px;
-  margin-left: 40px;
-  max-width: 240px;
-  text-transform: uppercase;
-}
-
-.text_card_right {
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: white;
-  margin-top: 96px;
-  margin-left: 39px;
-  text-decoration: none;
-  max-width: 256px;
-}
-
 .lots_more {
   font-family: "Raleway", sans-serif;
-  text-decoration: none;
   font-size: 20px;
   font-weight: 400;
   color: black;
   margin-left: 64px;
-  margin-bottom: 100px;
   position: relative;
   text-decoration: underline;
   text-underline-position: under;
-}
+ }
 
 .about {
   margin-top: 25px;
@@ -423,11 +355,6 @@ h1 {
   gap: 23px;
   margin-left: 383px;
   margin-top: 8px;
-  flex-direction: column;
-}
-
-.about_text__ {
-  max-width: 691px;
 }
 
 .about_text__ {
