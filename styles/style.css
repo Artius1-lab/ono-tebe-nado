@@ -138,19 +138,6 @@ header {
   z-index: 2;
 }
 
-.no-letter-spacing-big_ {
-  letter-spacing: 6px;
-}
-
-.no-letter-spacing-small_ {
-  letter-spacing: 35px;
-  text-transform: uppercase;
-}
-
-.no-letter-spacing-middle_ {
-  text-transform: uppercase;
-}
-
 .aligned-text-center {
   top: 0;
   margin-top: 10px;
@@ -160,24 +147,39 @@ header {
 
 h1 {
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  /*letter-spacing: 0.03em;*/
 }
 
+.no-letter-spacing-last{
+ letter-spacing: 0.6em;
+}
 .aligned-text-right {
   top: 0;
   margin-left: 583px;
   margin-top: 3px;
   display: block;
 }
+.no-letter-spacing-big-center{
+  letter-spacing: 0.18em;
+}
+
+.no-letter-spacing-middle-center{
+  letter-spacing: 0.35em;
+}
 
 .no-letter-spacing-big-right {
   letter-spacing: 0.3em;
 }
-
-.no-letter-spacing-last-right {
-  letter-spacing: initial;
+.no-letter-spacing-small-right{
+  letter-spacing: 0.10em;
 }
 
+.no-letter-spacing-last-right{
+  letter-spacing: px;
+}
+.no-letter-spacing-middle-right{
+  letter-spacing: 0.05em;
+}
 .p_cover {
   display: flex;
   margin-top: 0px;
